@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "metadata": { "name": "nginx-1", "namespace": "default" },
+      "status": { "phase": "Running", "containerStatuses": [{"restartCount": 2}] }
+    },
+    {
+      "metadata": { "name": "api-server", "namespace": "kube-system" },
+      "status": { "phase": "Pending", "containerStatuses": [{"restartCount": 0}] }
+    },
+    {
+      "metadata": { "name": "db", "namespace": "default" },
+      "status": { "phase": "Running", "containerStatuses": [{"restartCount": 1}] }
+    }
+  ]
+}
